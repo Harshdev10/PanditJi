@@ -401,6 +401,7 @@ h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-weight:500;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -708,7 +709,7 @@ section {
 }
 
 .services .icon-box h4 {
-  margin-left: 70px;
+  text-align: center;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -720,7 +721,7 @@ section {
 }
 
 .services .icon-box p {
-  margin-left: 70px;
+  margin-left: 0px;
   line-height: 24px;
   font-size: 14px;
 }
