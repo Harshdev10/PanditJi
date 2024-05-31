@@ -581,6 +581,7 @@ width:40%;
   background: #f8f9fa;
   min-height: 40px;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .breadcrumbs h2 {
@@ -1973,11 +1974,19 @@ width:40%;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+  margin-top:40px;
 }
 
 #footer .footer-top {
   background: #DF9448;
-  padding: 60px 0 30px 200px;
+  padding: 60px 0 30px 120px;
+}
+
+@media screen and (max-width: 768px) {
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+  }
+  
 }
 
 #footer .footer-top .footer-info {
@@ -1996,7 +2005,7 @@ width:40%;
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   color: #fff;
 }
 
